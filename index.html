@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Programs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="./style.css">   
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 class="text-info">Hours to Seconds Conversion</h3>
+            <p class="text-success font-weight-bold" id="secondsOutput"></p>
+            <input type="text" class="form-control" placeholder="Enter Hours" id="hoursInput">
+            <button class="btn btn-info" onclick="hoursToSeconds()">Convert</button>
+        </div>
+        <div class="col-lg-6">
+            <h3 class="text-info">Age into Days Conversion</h3>
+            <p class="text-success font-weight-bold" id="ageDaysOutput"></p>
+            <input type="text" class="form-control" placeholder="Enter Age in Years" id="ageInput">
+            <button class="btn btn-info" onclick="ageToDays()">Convert</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 class="text-info">Array Inversion</h3>
+            <p class="text-success font-weight-bold" id="inversionOutput"></p>
+            <input type="number" class="form-control" placeholder="Enter First Number" id="number1">
+            <input type="number" class="form-control" placeholder="Enter Second Number" id="number2">
+            <input type="number" class="form-control" placeholder="Enter Third Numbers" id="number3">
+            <input type="number" class="form-control" placeholder="Enter Fourth Numbers" id="number4">
+            <input type="number" class="form-control" placeholder="Enter Fifth Numbers" id="number5">
+            <button class="btn btn-info" onclick="inversion()">Invert</button>
+        </div>
+        <div class="col-lg-6">
+            <h3 class="text-info">Compare String Charachters</h3>
+            <p class="text-success font-weight-bold" id="compareOutput"></p>
+            <p class="text-danger font-weight-bold" id="wrong"></p>
+            <input type="text" class="form-control" placeholder="Enter First String" id="firstString">
+            <input type="text" class="form-control" placeholder="Enter Secong String" id="secondString">
+            <button class="btn btn-info" onclick="compare()">Compare</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 class="text-info">Integers To String Conversion</h3>
+            <p class="text-success font-weight-bold" id="stringOutput"></p>
+            <input type="text" class="form-control" placeholder="Enter First Element" id="integerInput1">
+            <input type="text" class="form-control" placeholder="Enter Second Element" id="integerInput2">
+            <input type="text" class="form-control" placeholder="Enter Third Element" id="integerInput3">
+            <input type="text" class="form-control" placeholder="Enter Fourth Element" id="integerInput4">
+            <input type="text" class="form-control" placeholder="Enter Fifth Element" id="integerInput5">
+            <button class="btn btn-info" onclick="integerToString()">Convert</button>
+        </div>
+        <div class="col-lg-6">
+            <h3 class="text-info">Check Leap Year</h3>
+            <p class="text-success font-weight-bold" id="yearOutput"></p>
+            <p class="text-danger font-weight-bold" id="false"></p>
+            <input type="text" class="form-control" placeholder="Enter any Year" id="year">
+            <button class="btn btn-info" onclick="leapYear()">Check</button>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h3 class="text-info">Corona Reach Zero Cases Calculation</h3>
+            <p class="text-success font-weight-bold" id="daysOutput"></p>
+            <input type="number" class="form-control" placeholder="Enter Daily Average Recovered Cases" id="recoverdCases">
+            <input type="number" class="form-control" placeholder="Enter Daily Average New Cases" id="newCases">
+            <input type="number" class="form-control" placeholder="Enter Current Active Cases" id="activeCases">
+            <button class="btn btn-info" onclick="calculateDays()">Calculate Days</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.row{
+    margin-top: 30px;
+}
+input{
+   margin-top: 20px !important;
+}
+h3,p{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+}
+.col-lg-12{
+    margin-bottom: 30px;
+}
